@@ -1,0 +1,94 @@
+/* Scoped styles for UploadReportPage */
+.upload-report-page {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.heading {
+    text-align: center;
+    color: #333;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+}
+
+.file-input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    text-align: center;
+    font-size: 14px;
+    color: green;
+}
+
+.subheading {
+    margin-top: 20px;
+    text-align: center;
+    color: #555;
+}
+
+.reports-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.report-item {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.report-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.report-link:hover {
+    text-decoration: underline;
+}
+
+.report-date {
+    font-size: 12px;
+    color: #666;
+}
+
+.no-reports {
+    text-align: center;
+    color: #888;
+}

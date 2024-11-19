@@ -1,0 +1,53 @@
+/* src/components/SignupPage.css */
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #f4f4f4; /* Light background color */
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px; /* Width of the form */
+    background: white; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the form */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+label {
+    margin-bottom: 5px; /* Space below the label */
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc; /* Border for input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+    width: 100%; /* Full width of the input fields */
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Rounded corners for button */
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}

@@ -1,0 +1,52 @@
+/* src/components/HomePage.css */
+
+.homepage {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff; /* Navbar background color */
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-buttons button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff; /* Button color */
+    color: #007bff; /* Button text color */
+    cursor: pointer;
+}
+
+.nav-buttons button:hover {
+    background-color: #e7e7e7; /* Button hover color */
+}
+
+.welcome-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.welcome-message {
+    flex: 1;
+    margin-right: 20px; /* Space between text and image */
+}
+
+.image-container img {
+    max-width: 300px; 
+    height: auto;
+    border-radius: 10px; 
+}
