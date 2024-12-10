@@ -1,0 +1,16 @@
+const jwt = require('jsonwebtoken');
+const JWT_SECRET = 'your_jwt_secret';
+
+function authenticateAdmin(req, res, next) {
+    const token = req.headers['authorization']?.split(' ')[1];
+    if (!token) return res.status(401).send('Access Denied');
+
+    jwt.verify(token, JWT_SECRET, (err, user) => {
+        if (err) return res.status(403).send('Invalid Token');
+        if (user.role !== 'admin') return res.status(403).send('Admin Access Required');
+        req.user = user;
+        next();
+    });
+}
+
+module.exports = authenticateAdmin;
